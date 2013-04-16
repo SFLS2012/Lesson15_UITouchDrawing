@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		853868C2171BF4F100EF5C09 /* brushinside.png in Resources */ = {isa = PBXBuildFile; fileRef = 853868C1171BF4F100EF5C09 /* brushinside.png */; };
 		85ADFF541712B5BE00F2D72C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ADFF531712B5BE00F2D72C /* UIKit.framework */; };
 		85ADFF561712B5BE00F2D72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ADFF551712B5BE00F2D72C /* Foundation.framework */; };
 		85ADFF581712B5BE00F2D72C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ADFF571712B5BE00F2D72C /* CoreGraphics.framework */; };
@@ -23,6 +24,8 @@
 		85ADFF7A1712B5BE00F2D72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85ADFF551712B5BE00F2D72C /* Foundation.framework */; };
 		85ADFF821712B5BE00F2D72C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85ADFF801712B5BE00F2D72C /* InfoPlist.strings */; };
 		85ADFF851712B5BE00F2D72C /* Lesson15_UITouchDrawingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85ADFF841712B5BE00F2D72C /* Lesson15_UITouchDrawingTests.m */; };
+		85ADFF901712BD8400F2D72C /* brush1.png in Resources */ = {isa = PBXBuildFile; fileRef = 85ADFF8E1712BD8400F2D72C /* brush1.png */; };
+		85ADFF911712BD8400F2D72C /* brush2.png in Resources */ = {isa = PBXBuildFile; fileRef = 85ADFF8F1712BD8400F2D72C /* brush2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		853868C1171BF4F100EF5C09 /* brushinside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brushinside.png; sourceTree = "<group>"; };
 		85ADFF501712B5BE00F2D72C /* Lesson15_UITouchDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson15_UITouchDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85ADFF531712B5BE00F2D72C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		85ADFF551712B5BE00F2D72C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +62,8 @@
 		85ADFF811712B5BE00F2D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85ADFF831712B5BE00F2D72C /* Lesson15_UITouchDrawingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson15_UITouchDrawingTests.h; sourceTree = "<group>"; };
 		85ADFF841712B5BE00F2D72C /* Lesson15_UITouchDrawingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson15_UITouchDrawingTests.m; sourceTree = "<group>"; };
+		85ADFF8E1712BD8400F2D72C /* brush1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brush1.png; sourceTree = "<group>"; };
+		85ADFF8F1712BD8400F2D72C /* brush2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brush2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,9 @@
 		85ADFF5A1712B5BE00F2D72C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				853868C1171BF4F100EF5C09 /* brushinside.png */,
+				85ADFF8E1712BD8400F2D72C /* brush1.png */,
+				85ADFF8F1712BD8400F2D72C /* brush2.png */,
 				85ADFF5B1712B5BE00F2D72C /* Lesson15_UITouchDrawing-Info.plist */,
 				85ADFF5C1712B5BE00F2D72C /* InfoPlist.strings */,
 				85ADFF5F1712B5BE00F2D72C /* main.m */,
@@ -236,6 +245,9 @@
 				85ADFF681712B5BE00F2D72C /* Default@2x.png in Resources */,
 				85ADFF6A1712B5BE00F2D72C /* Default-568h@2x.png in Resources */,
 				85ADFF6D1712B5BE00F2D72C /* MainStoryboard.storyboard in Resources */,
+				85ADFF901712BD8400F2D72C /* brush1.png in Resources */,
+				85ADFF911712BD8400F2D72C /* brush2.png in Resources */,
+				853868C2171BF4F100EF5C09 /* brushinside.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +465,7 @@
 				85ADFF8A1712B5BE00F2D72C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85ADFF8B1712B5BE00F2D72C /* Build configuration list for PBXNativeTarget "Lesson15_UITouchDrawingTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +474,7 @@
 				85ADFF8D1712B5BE00F2D72C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
